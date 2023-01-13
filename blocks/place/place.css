@@ -22,7 +22,7 @@
 
 @media (max-width:768px) {
     .place {
-        max-width: 720px;        
+        max-width: 720px;
         min-height: 434px;
         grid-template-columns: 340px 352px;
         gap: 48px 28px;
