@@ -1,6 +1,4 @@
 .lead__image {
-    max-width: 984px;
-    height: 615px;
     padding-top: 64px;
     margin: 0 auto;
     display: block;
@@ -14,7 +12,7 @@
         max-width: 928px;
         min-height: 580px;
         padding-top: 56px;
-    }    
+    }
 }
 
 @media (max-width: 768px) {
@@ -22,7 +20,7 @@
         max-width: 768px;
         min-height: 480px;
         padding-top: 56px;
-    }    
+    }
 }
 
 @media (max-width: 320px) {
@@ -30,5 +28,5 @@
         max-width: 320px;
         min-height: 200px;
         padding-top: 40px;
-    }    
+    }
 }
