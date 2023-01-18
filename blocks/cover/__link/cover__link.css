@@ -1,28 +1,28 @@
-.cover__overlay {
+.cover__link {
     display: block;
     text-decoration: none;
     background-color: rgba(42, 44, 47, 0.3);
     min-height: 740px;
 }
 
-.cover__overlay:hover {
+.cover__link:hover {
     background-color: rgba(42, 44, 47, 0.8);
 }
 
 @media (max-width:1024px) {
-    .cover__overlay {
+    .cover__link {
         min-height: 640px;
     }
 }
 
 @media (max-width:768px) {
-    .cover__overlay {
+    .cover__link {
         min-height: 480px;
     }
 }
 
-@media (max-width:320px) {
-    .cover__overlay {
+@media (max-width:540px) {
+    .cover__link {
         min-height: 200px;
     } 
 }

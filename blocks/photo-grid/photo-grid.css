@@ -1,5 +1,5 @@
-.photo-grid {
-    max-width: 1184px;
+/*.photo-grid {
+    max-width: 1185px;
     margin: 0 auto;
     padding: 92px 0 0;
     display: grid;
@@ -9,51 +9,66 @@
 
 @media (max-width: 1024px) {
     .photo-grid {
-        max-width: 928px;
+        max-width: 720px;
+        min-height: 942px;
         gap: 14px;
         grid-template-columns: repeat(3, 300px);
+    }
+}
+
+@media (max-width: 767px) {
+    .photo-grid {
+        max-width: 767px;
+        min-height: 1664px;
+        padding: 86px 0 0;
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(288px, 352px));
+    }
+}
+
+@media (max-width: 592px) {
+    .photo-grid {
+        max-width: 592px;
+        min-height: 2724px;
+        gap: 12px;
+        padding: 64px 0 0;
+        grid-template-columns: 288px;
+    }
+}
+*/
+
+.photo-grid {
+    max-width: 1185px;
+    margin: 0 auto;
+    padding: 92px 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+}
+
+@media (max-width: 1024px) {
+    .photo-grid {
+        max-width: 928px;
+        min-height: 942px;
+        gap: 14px;
+        grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
     }
 }
 
 @media (max-width: 768px) {
     .photo-grid {
         max-width: 720px;
-        grid-template-columns: repeat(2, 352px);
-        padding: 86px 0 0;
+        min-height: 1664px;
+        padding: 88px 0 0;
         gap: 16px;
-    }
-}
-
-@media (max-width: 580px) {
-    .photo-grid {
-        max-width: 288px;
-        gap: 12px;
-        padding: 64px 0 0;
-        grid-template-columns: 288px;
-    }
-}
-
-@media (max-width: 425px) {
-    .photo-grid {
-        max-width: 288px;
-        gap: 12px;
-        padding: 64px 0 0;
-        grid-template-columns: 288px;
-    }
-}
-
-@media (max-width: 375px) {
-    .photo-grid {
-        max-width: 288px;
-        gap: 12px;
-        padding: 64px 0 0;
-        grid-template-columns: 288px;
+        grid-template-columns: repeat(auto-fit, minmax(352, 1fr));
     }
 }
 
 @media (max-width: 320px) {
     .photo-grid {
         max-width: 288px;
+        min-height: 2724px;
         gap: 12px;
         padding: 64px 0 0;
         grid-template-columns: 288px;

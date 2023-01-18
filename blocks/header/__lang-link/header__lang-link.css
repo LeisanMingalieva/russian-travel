@@ -1,12 +1,12 @@
 .header__lang-link {
     font-weight: 400;
-    width: 30px;
-    height: 28px;
     font-size: 24px;
     line-height: 1.17;
-    color: white;
-    padding-right: 18px;
-    padding-bottom: 6px;
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 .header__lang-link:last-of-type {
@@ -15,8 +15,6 @@
 
 @media (max-width: 320px) {
     .header__lang-link {
-        width: 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
         padding-bottom: 8px;
