@@ -1,6 +1,6 @@
 .header__lang-link_active {
-    color: #fff;
     margin: 0;
+    text-decoration: underline;
 }
 
 .header__lang-link_active:hover {
