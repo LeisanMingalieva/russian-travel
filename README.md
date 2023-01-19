@@ -8,4 +8,4 @@
 * Медиазапросы  
   
     
-    [Проектная работа "Путешествия по стране" на gh-pages](https://leisanmingalieva.github.io/yet-another-project/ "Путешествия по стране")
+    [Проектная работа "Путешествия по стране" на gh-pages](https://leisanmingalieva.github.io/russian-travel/ "Путешествия по стране")
